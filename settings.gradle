@@ -1,0 +1,3 @@
+rootProject.name = 'JakartaEE-Recipies'
+include 'jakarta-ee-recipies'
+

@@ -1,0 +1,23 @@
+subprojects {
+
+    apply plugin: 'java'
+
+    repositories {
+        mavenCentral()
+    }
+
+    sourceCompatibility = JavaVersion.VERSION_1_8
+    targetCompatibility = JavaVersion.VERSION_1_8
+
+    version = '1.0-SNAPSHOT'
+    group = 'me.niravpradhan'
+
+    dependencies {
+        testImplementation "org.junit.jupiter:junit-jupiter-api:${junit5_version}"
+        testImplementation "org.junit.jupiter:junit-jupiter-engine:${junit5_version}"
+    }
+
+    test {
+        useJUnitPlatform()
+    }
+}
