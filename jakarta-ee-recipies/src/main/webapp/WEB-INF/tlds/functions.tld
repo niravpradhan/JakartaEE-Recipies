@@ -11,6 +11,6 @@
     <function>
         <name>isPrimitive</name>
         <function-class>org.jakartaeerecipes.chapter02.recipe02_05.ConditionalClass</function-class>
-        <function-signature>boolean boolean isPrimitive(java.lang.String)</function-signature>
+        <function-signature>boolean isPrimitive(java.lang.String)</function-signature>
     </function>
 </taglib>
