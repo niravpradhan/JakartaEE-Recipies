@@ -1,7 +1,7 @@
 # Jakarta EE Recipies
 > This project contains example code from two books Java EE 8 Recipes & Jakarta EE Recipes
 > It uses the latest Jakarta EE version 9, glassfish 6, Java 8.
-
+> Use mysql database connection pool from application server.
 ---
 ## Chapter - 01 (Working with servlets)
 > - Recipe01_01 Developing a Servlet
@@ -26,3 +26,13 @@
 > - Recipe02_03 Separating Business Logic from View Code
 > - Recipe02_04 Yielding or Setting Values
 > - Recipe02_05 Invoking a Function in a Conditional Expression
+> - Recipe02_06 Creating a JSP Document
+> - Recipe02_07 Embedding Expressions in EL
+> - Recipe02_08 Accessing Parameters in Multiple Pages
+> - Recipe02_09 Creating a Custom JSP Tag
+> - Recipe02_10 Including Other JSPs into a Page
+> - Recipe02_11 Creating an Input Form for a Database Record (db)
+> - Recipe02_12 Looping Through Database Records Within a Page (db)
+> - Recipe02_13 Handling JSP Errors
+> - Recipe02_14 Disabling Scriptlets in Pages
+> - Recipe02_15 Ignoring EL in Pages

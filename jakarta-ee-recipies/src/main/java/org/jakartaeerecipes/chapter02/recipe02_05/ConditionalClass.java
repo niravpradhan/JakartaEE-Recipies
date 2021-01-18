@@ -9,7 +9,7 @@ public class ConditionalClass implements java.io.Serializable {
     public static String[] javaTypes = new String[8];
     private String typename = null;
 
-    public ConditionalClass() {
+    static {
         javaTypes[0] = "byte";
         javaTypes[1] = "short";
         javaTypes[2] = "int";
