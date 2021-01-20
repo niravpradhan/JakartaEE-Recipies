@@ -21,7 +21,7 @@ public final class AttributeListener implements ServletContextListener,
         HttpSession session = se.getSession();
         String id = session.getId();
         String name = se.getName();
-        String value = (String) se.getValue();
+        String value = se.getValue().toString();
         String message = new StringBuffer("New attribute has been added to session: \n").append("Attribute Name: ").append(name).append("\n").append("Attribute Value:").append(value).toString();
         log(message);
     }

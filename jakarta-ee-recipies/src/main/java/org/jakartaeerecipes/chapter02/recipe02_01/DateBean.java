@@ -1,4 +1,3 @@
-
 package org.jakartaeerecipes.chapter02.recipe02_01;
 
 import java.util.Date;

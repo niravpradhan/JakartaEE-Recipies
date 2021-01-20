@@ -7,7 +7,6 @@ package org.jakartaeerecipes.chapter02.recipe02_05;
  */
 public class ConditionalClass implements java.io.Serializable {
     public static String[] javaTypes = new String[8];
-    private String typename = null;
 
     static {
         javaTypes[0] = "byte";
@@ -19,6 +18,8 @@ public class ConditionalClass implements java.io.Serializable {
         javaTypes[6] = "boolean";
         javaTypes[7] = "char";
     }
+
+    private String typename = null;
 
     public static boolean isPrimitive(String value) {
         boolean returnValue = false;

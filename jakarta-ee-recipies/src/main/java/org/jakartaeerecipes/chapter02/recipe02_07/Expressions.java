@@ -1,8 +1,8 @@
-
 package org.jakartaeerecipes.chapter02.recipe02_07;
 
 /**
  * Recipe 2-7
+ *
  * @author juneau
  */
 public class Expressions implements java.io.Serializable {

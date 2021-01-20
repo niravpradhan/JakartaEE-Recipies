@@ -1,4 +1,3 @@
-
 package org.jakartaeerecipes.chapter01.recipe01_13;
 
 import jakarta.servlet.ServletContext;
@@ -48,8 +47,8 @@ public class DownloadServlet extends HttpServlet {
     /**
      * Sends a file to the output stream.
      *
-     * @param request               The request
-     * @param response              The response
+     * @param request      The request
+     * @param response     The response
      * @param originalFile The name the browser should receive.
      */
     private void doDownload(HttpServletRequest request, HttpServletResponse response,

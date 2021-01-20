@@ -9,6 +9,7 @@ import java.util.Random;
  */
 public class RandomBean implements java.io.Serializable {
     private Random randomGenerator = new Random();
+
     /**
      * @return the randomNumber
      */

@@ -1,17 +1,14 @@
-
-
 package org.jakartaeerecipes.chapter02.recipe02_12;
 
 /**
- *
  * @author juneau
  */
 public class Author implements java.io.Serializable {
     private int id;
     private String first;
     private String last;
-    
-    public Author(){
+
+    public Author() {
         id = -1;
         first = null;
         last = null;
