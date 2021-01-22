@@ -37,7 +37,7 @@
 > - Recipe02_13 Handling JSP Errors
 > - Recipe02_14 Disabling Scriptlets in Pages
 > - Recipe02_15 Ignoring EL in Pages
-## Chapter - 03 (The Basics Of JavaServer Faces)
+## Chapter - 03 (The Basics Of Jakarta Server Faces)
 > - Recipe03_01 Writing a Simple JSF Application
 > - Recipe03_02 Writing a Controller Class
 > - Recipe03_03 Building Sophisticated JSF Views with Components
