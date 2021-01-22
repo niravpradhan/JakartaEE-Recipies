@@ -8,4 +8,29 @@
         <phase-listener>org.jakartaeerecipes.common.GlobalPhaseListener</phase-listener>
     </lifecycle>
 
+    <navigation-rule>
+        <from-view-id>/chapter03/recipe03_06a.xhtml</from-view-id>
+        <navigation-case>
+            <from-outcome>PAGE_2</from-outcome>
+            <to-view-id>/chapter03/recipe03_06b.xhtml</to-view-id>
+        </navigation-case>
+    </navigation-rule>
+
+    <navigation-rule>
+        <from-view-id>/chapter03/recipe03_06b.xhtml</from-view-id>
+        <navigation-case>
+            <from-outcome>PAGE_1</from-outcome>
+            <to-view-id>/chapter03/recipe03_06a.xhtml</to-view-id>
+        </navigation-case>
+    </navigation-rule>
+
+    <navigation-rule>
+        <from-view-id>/chapter03/recipe03_06c.xhtml</from-view-id>
+        <navigation-case>
+            <from-action>#{navigationController.login}</from-action>
+            <if>#{navigationController.authenticated}</if>
+            <to-view-id>/chapter03/recipe03_06d.xhtml</to-view-id>
+            <redirect/>
+        </navigation-case>
+    </navigation-rule>
 </faces-config>

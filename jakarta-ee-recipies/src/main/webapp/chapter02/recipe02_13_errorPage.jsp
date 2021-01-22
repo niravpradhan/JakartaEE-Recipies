@@ -5,9 +5,9 @@
 
 <%@page contentType="text/html" pageEncoding="UTF-8" %>
 <%@ page isErrorPage="true" %>
-<%@ taglib uri="http://java.sun.com/jsp/jstl/core"
+<%@ taglib uri="http://xmlns.jcp.org/jsp/jstl/core"
            prefix="c" %>
-<%@ taglib uri="http://java.sun.com/jsp/jstl/fmt"
+<%@ taglib uri="http://xmlns.jcp.org/jsp/jstl/fmt"
            prefix="fmt" %>
 <!DOCTYPE html>
 <html>

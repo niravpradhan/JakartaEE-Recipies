@@ -5,7 +5,7 @@
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
-<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<%@ taglib prefix="c" uri="http://xmlns.jcp.org/jsp/jstl/core" %>
 <%@ taglib uri="/WEB-INF/tlds/functions.tld" prefix="fct" %>
 <html>
     <head>

@@ -1,7 +1,8 @@
 # Jakarta EE Recipies
 > This project contains example code from two books Java EE 8 Recipes & Jakarta EE Recipes
-> It uses the latest Jakarta EE version 9, glassfish 6, Java 8.
-> Use mysql database connection pool from application server.
+> It uses the latest Jakarta EE version 9, glassfish 6, Java 8, groovy (3.0.7).
+> Use mysql database connection pool from application server n conffigure datasource
+> named 'jdbc/__npmydbpool'.
 ---
 ## Chapter - 01 (Working with servlets)
 > - Recipe01_01 Developing a Servlet
@@ -20,7 +21,7 @@
 > - Recipe01_16 Securely Maintaining State Within the Browser
 > - Recipe01_18 Reading and Writing with Nonblocking I/O
 > - Recipe01_19 Pushing Resources from a Server to a Client
-## Chapter - 02 JavaServer Pages
+## Chapter - 02 (JavaServer Pages)
 > - Recipe02_01 Creating a Simple JSP Page
 > - Recipe02_02 Embedding Java into a JSP Page
 > - Recipe02_03 Separating Business Logic from View Code
@@ -36,3 +37,22 @@
 > - Recipe02_13 Handling JSP Errors
 > - Recipe02_14 Disabling Scriptlets in Pages
 > - Recipe02_15 Ignoring EL in Pages
+## Chapter - 03 (The Basics Of JavaServer Faces)
+> - Recipe03_01 Writing a Simple JSF Application
+> - Recipe03_02 Writing a Controller Class
+> - Recipe03_03 Building Sophisticated JSF Views with Components
+> - Recipe03_04 Displaying Messages in JSF Pages
+> - Recipe03_05 Updating Messages Without Recompiling
+> - Recipe03_06 Navigation Based upon Conditions Problem
+> - Recipe03_07 Validating User Input
+> - Recipe03_08 Evaluating Page Expressions Immediately
+> - Recipe03_09 Passing Page Parameters to Methods
+> - Recipe03_10 Using Operators and Reserved Words in Expressions
+> - Recipe03_11 Creating Bookmarkable URLs
+> - Recipe03_12 Displaying Lists of Objects
+> - Recipe03_13 Developing with HTML5
+> - Recipe03_14 Creating Page Templates
+> - Recipe03_15 Applying Templates
+> - Recipe03_16 Adding Resources into the Mix
+> - Recipe03_17 Handling Variable-Length Data
+> - Recipe03_18 Invoking Controller Class Actions on Life-Cycle Phase Events

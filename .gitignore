@@ -2,6 +2,14 @@
 .idea/*
 .idea/**
 
+*.iml
+
+.settings
+.settings/*
+.settings/**
+
+.project
+
 build
 build/*
 build/**

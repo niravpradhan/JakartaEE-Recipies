@@ -4,5 +4,5 @@ plugins {
 
 dependencies {
     providedCompile "jakarta.platform:jakarta.jakartaee-api:${jakartaee_api_version}"
-    providedCompile group: 'jakarta.servlet.jsp.jstl', name: 'jakarta.servlet.jsp.jstl-api', version: '2.0.0'
+    implementation "org.primefaces:primefaces:${primefaces_version}:jakarta"
 }

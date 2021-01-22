@@ -1,6 +1,14 @@
 subprojects {
 
-    apply plugin: 'java'
+    apply plugin: 'groovy'
+    apply plugin: 'idea'
+
+    idea {
+        module {
+            downloadJavadoc = true
+            downloadSources = true
+        }
+    }
 
     repositories {
         mavenCentral()
@@ -12,9 +20,21 @@ subprojects {
     version = '1.0-SNAPSHOT'
     group = 'me.niravpradhan'
 
+    sourceSets {
+        main {
+            java { srcDirs = [] }
+            groovy { srcDirs += ['src/main/java'] }
+        }
+        test {
+            java { srcDirs = [] }
+            groovy { srcDirs += 'src/test/java' }
+        }
+    }
+
     dependencies {
         testImplementation "org.junit.jupiter:junit-jupiter-api:${junit5_version}"
         testImplementation "org.junit.jupiter:junit-jupiter-engine:${junit5_version}"
+        implementation "org.codehaus.groovy:groovy:${groovy_version}"
     }
 
     test {
