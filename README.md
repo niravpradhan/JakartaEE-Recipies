@@ -56,3 +56,15 @@
 > - Recipe03_16 Adding Resources into the Mix
 > - Recipe03_17 Handling Variable-Length Data
 > - Recipe03_18 Invoking Controller Class Actions on Life-Cycle Phase Events
+## Chapter - 03b (Jakarta Server Faces Standard Components) - From JavaEE 8 Recipes Book
+> - Recipe03b_01 Creating an Input Form
+> - Recipe03b_02 Invoking Actions from Within a Page
+> - Recipe03b_03 Displaying Output
+> - Recipe03b_04 Adding Form Validation
+> - Recipe03b_05 Adding Select Lists to Pages
+> - Recipe03b-06 Adding Graphics to Your Pages
+> - Recipe03b-07 Adding Check Boxes to a View
+> - Recipe03b-08 Adding Radio Buttons to a View
+> - Recipe03b-09 Displaying a Collection of Data
+> - Recipe03b-10 Utilizing Custom JSF Component Libraries
+> - Reciipe03-11 Implementing File Uploading
