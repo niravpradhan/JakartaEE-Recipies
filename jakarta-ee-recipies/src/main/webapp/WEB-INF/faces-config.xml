@@ -7,7 +7,7 @@
     <lifecycle>
         <phase-listener>org.jakartaeerecipes.common.GlobalPhaseListener</phase-listener>
     </lifecycle>
-
+    
     <navigation-rule>
         <from-view-id>/chapter03/recipe03_06a.xhtml</from-view-id>
         <navigation-case>

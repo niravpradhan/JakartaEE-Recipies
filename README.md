@@ -62,9 +62,30 @@
 > - Recipe03b_03 Displaying Output
 > - Recipe03b_04 Adding Form Validation
 > - Recipe03b_05 Adding Select Lists to Pages
-> - Recipe03b-06 Adding Graphics to Your Pages
-> - Recipe03b-07 Adding Check Boxes to a View
-> - Recipe03b-08 Adding Radio Buttons to a View
-> - Recipe03b-09 Displaying a Collection of Data
-> - Recipe03b-10 Utilizing Custom JSF Component Libraries
-> - Reciipe03-11 Implementing File Uploading
+> - Recipe03b_06 Adding Graphics to Your Pages
+> - Recipe03b_07 Adding Check Boxes to a View
+> - Recipe03b_08 Adding Radio Buttons to a View
+> - Recipe03b_09 Displaying a Collection of Data
+> - Recipe03b_10 Utilizing Custom JSF Component Libraries
+> - Reciipe03_11 Implementing File Uploading
+## Chapter - 03c (Advanced JakartaServer Faces and Ajax) - From JavaEE 8 Recipes Book
+> - Recipe03c_01 Validating Input with Ajax
+> - Recipe03c_02 Submitting Pages Without Page Reloads
+> - Recipe03c_03 Making Partial-Page Updates
+> - Recipe03c_04 Applying Ajax Functionality to a Group of Components
+> - Recipe03c_05 Custom Processing of Ajax Functionality
+> - Recipe03c_06 Custom Conversion of Input Values
+> - Recipe03c_07 Maintaining Managed Bean Scopes for a Session
+> - Recipe03c_08 Listening for System-Level Events
+> - Recipe03c_09 Listening for Component Events
+> - Recipe03c_10 Invoking a Managed Bean Action on Render
+> - Recipe03c_11 Asynchronously Updating Components
+> - Recipe03c_12 Developing JSF Components Containing HTML5
+> - Recipe03c_13 Listening to JSF Phases
+> - Recipe03c_14 Adding Auto-Completion to Text Fields
+> - Recipe03c_15 Developing Custom Constraint Annotations
+> - Recipe03c_16 Developing a Page Flow
+> - Recipe03c_17 Constructing a JSF View in Pure HTML5
+> - Recipe03c_18 Invoking Server-Side Methods via Ajax
+> - Recipe03c_19 Broadcasting Messages from the Server to All Clients
+> - Recipe03c_20 Programmatically Searching for Components
